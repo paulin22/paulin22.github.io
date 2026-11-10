@@ -1,0 +1,23 @@
+{
+  "name": "Paulin Numugisha",
+  "short_name": "Paulin",
+  "description": "Portfolio of Paulin Numugisha, founder and TypeScript engineer based in Canada.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#f3efe6",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
