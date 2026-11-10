@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — Paulin Numugisha</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f3efe6">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      } catch (err) {}
+    })();
+  </script>
+</head>
+<body>
+  <main class="wrap error-page" id="content">
+    <p class="kicker">404</p>
+    <h1>This page is not on the site.</h1>
+    <p class="lede">The portfolio lives on the home page.</p>
+    <p><a class="btn btn-primary" href="/">Back to Paulin Numugisha</a></p>
+  </main>
+</body>
+</html>
